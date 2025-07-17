@@ -9,7 +9,7 @@ public class Better_Approach {
 
         // mark 1 in both array
         for(int i = 0; i < n; i++){
-            for(int j = 0; j < m; j++){
+            for(int j = 0; j < m; j++){ 
                 if(matrix.get(i).get(j) == 0){
                     row[i] = 1;
                     column[j] = 1;
