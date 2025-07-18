@@ -8,7 +8,7 @@ public class Brute_Force {
             for(int j = i; j<n;j++){
                 int sum = 0;
 
-                for(int k = 0; k <= j; k++){
+                for(int k = i; k <= j; k++){
                     sum += array[k];
                 }
                 max = Math.max(max,sum);
